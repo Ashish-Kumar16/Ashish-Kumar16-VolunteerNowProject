@@ -24,7 +24,7 @@ INSTALLED_APPS = [
     'accounts',
     'opportunities',
     'django_filters',
-    # 'drf_yasg',
+    'drf_yasg',
     'corsheaders',
 ]
 
