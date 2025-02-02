@@ -15,8 +15,7 @@ COPY . /app/
 
 # Set environment variables (optional)
 ENV PYTHONUNBUFFERED 1
-ENV DJANGO_SETTINGS_MODULE=myproject.settings.production  # Adjust for your project settings
-
+ENV DJANGO_SETTINGS_MODULE=volunteernow.settings.production 
 # Expose the port the app will run on
 EXPOSE 8000
 
